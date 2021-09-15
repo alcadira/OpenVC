@@ -793,8 +793,8 @@ footer span .footing {
   }
   header ul li .signup {
     background-color: white;
-    border-radius: 5px 0px 5px 0px;
-    padding: 8px;
+    border-radius: 5px;
+    padding: 5px;
     font-size: 20px;
   }
   .banner {
