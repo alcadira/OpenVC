@@ -956,6 +956,8 @@ footer span .footing {
     right: 5%;
     padding: 5px;
     background-color: white;
+    -webkit-box-shadow: 2px 4px 6px black;
+            box-shadow: 2px 4px 6px black;
     font-family: "monbold";
     font-size: 21px;
   }
@@ -1117,7 +1119,7 @@ footer span .footing {
   }
   .according .row h2 {
     text-align: center;
-    font-family: "semibold";
+    font-family: "monbold";
     font-size: 41px;
     margin: 30px;
   }
@@ -1150,7 +1152,7 @@ footer span .footing {
     margin: 40px auto;
     width: 100%;
     border: none;
-    padding: 0.5em;
+    padding: 0.5rem 1rem;
     background: #e1eff6;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -1158,13 +1160,13 @@ footer span .footing {
   }
   .according .accordion-button h3 {
     font-size: 23px;
-    font-family: "monbold";
+    font-family: "semibold";
     color: black;
     margin: 10px;
   }
   .according .accordion-button hr {
     width: 100%;
-    height: 2px;
+    height: 1px;
     background-color: black;
     opacity: 1;
     margin: auto 3px;
@@ -1176,11 +1178,11 @@ footer span .footing {
   .according .accordion-button:before {
     content: '';
     position: absolute;
-    right: 0;
+    right: 3%;
     top: 45%;
-    height: 3px;
+    height: 2px;
     width: 20px;
-    margin-left: 27px;
+    margin-left: 20px;
     background: black;
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
@@ -1190,7 +1192,7 @@ footer span .footing {
   .according .accordion-button:after {
     content: '';
     position: absolute;
-    right: 0;
+    right: 3%;
     top: 45%;
     height: 3px;
     width: 20px;
@@ -1228,6 +1230,7 @@ footer span .footing {
   }
   .companies .startups {
     background-color: white;
+    border-radius: 20px;
     position: relative;
     width: 100%;
     padding: 60px 50px;
@@ -1249,7 +1252,7 @@ footer span .footing {
   .companies .startups h2 {
     font-size: 30px;
     font-family: "regular";
-    padding: 20px;
+    padding-bottom: 10px;
   }
   .companies .startups hr {
     background-color: black;
@@ -1261,13 +1264,16 @@ footer span .footing {
   .companies .startups .start {
     width: 100%;
   }
+  .companies .startups .start .flite {
+    width: 100%;
+  }
   .companies .startups .start img {
     width: 50%;
   }
   .companies .inter {
     position: absolute;
     display: block;
-    bottom: -12vh;
+    bottom: -17vh;
     width: 60%;
     left: 24%;
   }
@@ -1310,7 +1316,10 @@ footer span .footing {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 50px 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 70px 10px;
   }
   footer .foot {
     width: 25%;
@@ -1322,7 +1331,7 @@ footer span .footing {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 20px 5px 0px 5px;
+    margin: 30px 5px 0px 5px;
   }
   footer .foot h3 {
     color: white;
