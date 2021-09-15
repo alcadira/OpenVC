@@ -13,6 +13,7 @@ $('.invent').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay:true,
+    arrows:false,
     // nextArrow:".forward",
     // prevArrow:".back",
     responsive: [
