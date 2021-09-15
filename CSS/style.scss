@@ -99,15 +99,16 @@ header{
             background: transparent;
             position: absolute;
             &::before{
-                 transform: rotate(45deg) ;
-                 translate: (20px , 10px);
-              
-                background-color: black;
+              transform: rotate(-45deg);
+                    background-color: black;
+                    width:12vw;
+                    height: 3px;
             }
             &::after{
-                width: 28px;
-                transform: rotate(-45deg)
-                translate(20px, -7px);
+                width: 12vw;
+                height: 3px;
+                transform: rotate(45deg);
+                
                 background-color: black;
                
             }
@@ -876,7 +877,7 @@ span{
                 position: absolute;
                 bottom: 24%;
                 right: 5%;
-                padding: 5px;
+                padding: 12px;
                 background-color: white;
                 box-shadow: 2px 4px 6px black;
                 font-family: $bold;

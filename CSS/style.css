@@ -108,16 +108,18 @@ header ul {
 }
 
 .open .menu .bar::before {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  translate: 20px, 10px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   background-color: black;
+  width: 12vw;
+  height: 3px;
 }
 
 .open .menu .bar::after {
-  width: 28px;
-  -webkit-transform: rotate(-45deg) translate(20px, -7px);
-          transform: rotate(-45deg) translate(20px, -7px);
+  width: 12vw;
+  height: 3px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
   background-color: black;
 }
 
@@ -954,7 +956,7 @@ footer span .footing {
     position: absolute;
     bottom: 24%;
     right: 5%;
-    padding: 5px;
+    padding: 12px;
     background-color: white;
     -webkit-box-shadow: 2px 4px 6px black;
             box-shadow: 2px 4px 6px black;
