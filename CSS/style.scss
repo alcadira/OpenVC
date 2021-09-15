@@ -99,7 +99,7 @@ header{
             background: transparent;
             position: absolute;
             &::before{
-              transform: rotate(-45deg);
+              transform: rotate(-180deg);
                     background-color: black;
                     width:12vw;
                     height: 3px;
@@ -107,7 +107,7 @@ header{
             &::after{
                 width: 12vw;
                 height: 3px;
-                transform: rotate(45deg);
+                transform: rotate(90deg);
                 
                 background-color: black;
                

@@ -108,8 +108,8 @@ header ul {
 }
 
 .open .menu .bar::before {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
   background-color: black;
   width: 12vw;
   height: 3px;
@@ -118,8 +118,8 @@ header ul {
 .open .menu .bar::after {
   width: 12vw;
   height: 3px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
   background-color: black;
 }
 
