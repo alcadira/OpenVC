@@ -232,48 +232,51 @@ header{
 // =====================About====================
 
 .about{
-   background-color: #e1eff6;
-   padding: 30px 0px;
+  padding: 30px;
+  background-color: #e1eff6;
+  h2{
+    font-family: $regular;
+    font-size: 20px;
+  }
+.abt{
+   display: flex;
+  
    align-items: center;
-   justify-content: center;
-   .row{
-     padding: 20px;
-   }
-   h2{
-    font-size: 18px;
-    padding: 40px 20px 0px 10px;
+   flex-direction:column;
+   flex-wrap: wrap;
+   width: 100%;
+   .meet{
     width: 100%;
-    font-family: "semibold";
-   }
-    .abt{
-      margin-top: 30px;
-      position: relative;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 20px;
+    h4{
+      font-size: 20px;
+      font-family: $bold;
       text-align: center;
-      background-color: white;
-      border-radius: 15px;
-      box-shadow: 0px 4px 2px black;
-      width: 100%;
-      padding: 20px;
-    
-      .card{
-        border: none;
-       
-        .elly{
-         
-        }
-        
-      }
-     
-      .inpic{
-          position: absolute;
-          bottom: 32%;
-          left: 9%;
-          img{
-              width: 90%;
-          }
-      }
     }
+    #elly{
+     position: relative;
+     width: 100%;
+     bottom: 54px;
+     margin-bottom: -50px;
+    }
+    #found{
+     position: relative;
+     width: 100%;
+     bottom: 54px;
+     margin-bottom: -50px;
+     object-fit: contain;
+     right: 2%;
+    }
+  }
+   
+
 }
+
+}
+
 
 // ===========================showcase=================
 .showcase{
@@ -745,7 +748,7 @@ span{
           display:flex;
           flex-direction:row;
           position: fixed;
-          width:53%;
+          width:55%;
           list-style: none;
           margin: unset;
           position: unset;
@@ -758,15 +761,16 @@ span{
               a{
                   text-decoration: none;
                   color: black;
-                  font-family: $medium;
+                  font-family: $semi;
                   font-size: 20px;
-                  margin: 0px;
+                  margin: 0px 15px;
               }
               .signup{
                   background-color:white;
                   border-radius:5px;
-                  padding: 5px;
+                  padding: 8px 15px;
                   font-size: 20px;
+                  font-style: $bold;
               }
           }
       }
@@ -835,12 +839,15 @@ span{
                             
                          }
                          p{
-                            font-size: 18px;
+                            font-size: 20px;
+                            font-family: $regular;
+                            span{
+                              font-family: $bold;
+                              display: inline;
+                              font-size: 20px;
+                          }
                          }
-                         span{
-                            font-family: $bold;
-                            font-size:18px;
-                        }
+                        
                      }
                  }
  
@@ -850,63 +857,53 @@ span{
  
 //  =========================About==========================
 .about{
-    background-color: #e1eff6;
-    justify-content: center;
-    padding:20px 60px;
- h2{
-     font-size: 51px;
-     font-family: $semi;
-     padding: 10px 0px 10px 30px;
- }
-    .row{
-        align-items: center;
-        justify-content: center;
-        padding: 40px 0px;
-        
-    }
-     .abt{
-       padding:30px 50px;
-       border-radius: 20px;
-       text-align: center;
-       width: 30%;
-       background-color: white;
-       box-shadow: 0px 2px 3px black;
-       margin: auto 60px;
-       .card{
-         border: none;
-         border-radius: 0px;
-       }
-       #elly{
-        position: relative;
-        width: 100%;
-        top: -5vh;
-        
-       }
-       #found{
-        position: relative;
-        width: 100%;
-        top: -6vh;
-       }
-       .abpic{
-           position: absolute;
-           bottom: 20%;
-           width: 100%;
-       }
-       h4{
-        font-family: $bold;
-        font-size: 28px;
-    }
-     
-       .inpic{
-           position: absolute;
-           bottom: 32%;
-           left: 9%;
-           img{
-               width: 90%;
-           }
-       }
+  padding: 40px;
+  
+  h2{
+    font-family: $regular;
+    font-size: 51px;
+    margin-bottom: 30px;
+  }
+.abt{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+  
+   text-align: center;
+   padding: 70px;
+
+   .meet{
+     width: 35%;
+     margin: auto 40px;
+     background-color: white;
+     padding: 20px 10px;
+     border-radius: 20px;
+     h4{
+       font-size: 25px;
+       font-family: $bold;
      }
- }
+     #elly{
+      position: relative;
+      width: 100%;
+      bottom: 54px;
+      margin-bottom: -54px;
+     }
+     #found{
+      position: relative;
+      width: 100%;
+      bottom: 54px;
+      margin-bottom: -54px;
+      object-fit: contain;
+      right: 2%;
+     }
+   }
+   
+
+}
+
+}
 
  // ===========================showcase=================
 .showcase{
@@ -1214,14 +1211,14 @@ span{
         position: absolute;
         display: block !important;
         left: 0%;
-        bottom: 38%;
+        bottom: 35%;
         width: 5%;
        }
        .narrow{
         position: absolute;
         display: block !important;
-        left:95%;
-        bottom:40%;
+        right:0%;
+        bottom:35%;
         width: 5%;
         z-index: 4;
        }
@@ -1246,7 +1243,9 @@ span{
              width: 100%;
            }
            img{
-               width: 50%;
+              height: 12vh;
+              object-fit: contain;
+              margin: auto;
            }
        }
       }
@@ -1307,7 +1306,7 @@ footer{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 90px 10px;
+    padding: 70px 10px;
 
     .foot{
         width: 25%;
@@ -1462,7 +1461,7 @@ footer{
          padding-top: 100px;
              .btext{
                      width: 48%;
-                     padding: 20px;
+                     padding: 0px;
                      text-align: left;
                      h1{
                          font-size: 35px;
@@ -1474,7 +1473,7 @@ footer{
                          background-color: white;
                          color: black;
                          font-family: $bold;
-                         margin-left:15px;
+                         margin:auto 20px;
                          padding: 5px;
                      }
                      
@@ -1484,15 +1483,16 @@ footer{
                      position: relative;
                      img{
                          width: 100%;
+                         object-fit: contain;
                      }
                      .txt{
-                         position: absolute;
-                         top: 62%;
-                         width: 56%;
-                         left:35%;
-                         background-color: white;
-                         border-radius: 10px;
-                         padding: 0px 10px;
+                        position: absolute;
+                        top: 69%;
+                        width: 56%;
+                        left: 37%;
+                        background-color: white;
+                        border-radius: 10px;
+                        padding: 0px 10px;
                          box-shadow: 0px 3px 8px black solid;
                          h3{
                              font-family: $bold;
@@ -1514,63 +1514,53 @@ footer{
 
 //  =========================About==========================
 .about{
-  background-color: #e1eff6;
-  justify-content: center;
-  padding:30px 60px;
-h2{
-   font-size: 35px;
-   font-family: $semi;
-   padding: 30px 10px;
-}
-  .row{
-      align-items: center;
-      justify-content: center;
-      padding: 40px 0px;
-      
+  padding: 40px;
+  
+  h2{
+    font-family: $regular;
+    font-size: 51px;
+    margin-bottom: 30px;
   }
-   .abt{
-     padding:30px 30px;
-     border-radius: 20px;
-     text-align: center;
-     width: 37%;
+.abt{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+  
+   text-align: center;
+   padding: 70px;
+   width: 100%;
+
+   .meet{
+     width: 43%;
+     margin: 20px auto;
      background-color: white;
-     box-shadow: 0px 2px 3px black;
-     margin: auto 40px;
-     .card{
-       border: none;
-       border-radius: 0px;
+     padding: 40px 30px;
+     border-radius: 20px;
+     h4{
+       font-size: 22px;
+       font-family: $bold;
      }
      #elly{
       position: relative;
-      width: 28vw;
-      top: -6vh;
-      right: 4vw;
+      width: 100%;
+      bottom: 54px;
+      margin-bottom: -48px;
      }
      #found{
       position: relative;
-      width: 26vw;
-      top: -5vh;
-      right: 2vh;
-     }
-     .abpic{
-         position: absolute;
-         bottom: 20%;
-         width: 100%;
-     }
-     h4{
-      font-family: $bold;
-      font-size: 20px;
-  }
-   
-     .inpic{
-         position: absolute;
-         bottom: 32%;
-         left: 9%;
-         img{
-             width: 90%;
-         }
+      width: 100%;
+      bottom: 54px;
+      margin-bottom: -54px;
+      object-fit: contain;
+      right: 2%;
      }
    }
+   
+
+}
+
 }
 
   // ===========================showcase=================
