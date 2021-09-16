@@ -916,7 +916,7 @@ span{
       font-family: "regular";
       font-size: 45px;
       text-align: left;
-      padding: 2vh 9vw;
+      padding: 2vh 10vw;
     }
  
     .invent{
@@ -1200,7 +1200,7 @@ span{
 
 // ===============companies=============
 .companies{
-    padding:90px 0px;
+    padding:100px 0px;
     background-color: #e1eff6;
     position: relative;
     text-align: center;
@@ -1208,8 +1208,8 @@ span{
        background-color: white;
        border-radius: 20px;
        position: relative;
-       width: 100%;
        padding: 60px 50px;
+       margin-bottom: 60px;
        .barrow{
         position: absolute;
         display: block !important;
@@ -1239,7 +1239,7 @@ span{
        }
        
        
-       width: 100%;
+      
        .start{
            width: 100%;
            .flite{
@@ -1253,11 +1253,11 @@ span{
  
     .inter{
       
-        position: absolute;
-        display: block;
-        bottom: -17vh;
-        width: 60%;
-        left: 24%;      
+      position: absolute;
+      display: block;
+      bottom: -9vh;
+      width: 65%;
+      left: 14%;     
  }
  .slider {
     width: 100%;
@@ -1307,7 +1307,7 @@ footer{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 70px 10px;
+    padding: 90px 10px;
 
     .foot{
         width: 25%;

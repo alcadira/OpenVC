@@ -995,7 +995,7 @@ footer span .footing {
     font-family: "regular";
     font-size: 45px;
     text-align: left;
-    padding: 2vh 9vw;
+    padding: 2vh 10vw;
   }
   .showcase .invent {
     display: -webkit-box;
@@ -1284,7 +1284,7 @@ footer span .footing {
     margin: 5px auto;
   }
   .companies {
-    padding: 90px 0px;
+    padding: 100px 0px;
     background-color: #e1eff6;
     position: relative;
     text-align: center;
@@ -1293,9 +1293,8 @@ footer span .footing {
     background-color: white;
     border-radius: 20px;
     position: relative;
-    width: 100%;
     padding: 60px 50px;
-    width: 100%;
+    margin-bottom: 60px;
   }
   .companies .startups .barrow {
     position: absolute;
@@ -1336,9 +1335,9 @@ footer span .footing {
   .companies .inter {
     position: absolute;
     display: block;
-    bottom: -17vh;
-    width: 60%;
-    left: 24%;
+    bottom: -9vh;
+    width: 65%;
+    left: 14%;
   }
   .companies .slider {
     width: 100%;
@@ -1382,7 +1381,7 @@ footer span .footing {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 70px 10px;
+    padding: 90px 10px;
   }
   footer .foot {
     width: 25%;
