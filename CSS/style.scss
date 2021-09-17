@@ -1518,8 +1518,8 @@ footer{
   
   h2{
     font-family: $regular;
-    font-size: 51px;
-    margin-bottom: 30px;
+    font-size: 35px;
+    
   }
 .abt{
    display: flex;
@@ -1529,14 +1529,14 @@ footer{
    flex-wrap: wrap;
   
    text-align: center;
-   padding: 70px;
+   padding: 40px;
    width: 100%;
 
    .meet{
      width: 43%;
      margin: 20px auto;
      background-color: white;
-     padding: 40px 30px;
+     padding: 30px 30px;
      border-radius: 20px;
      h4{
        font-size: 22px;
@@ -1565,12 +1565,14 @@ footer{
 
   // ===========================showcase=================
 .showcase{
-    padding-top: 50px;
+    padding-top: 70px;
     text-align: center;
     h2{
-        font-family: $medium;
-        font-size: 25px;
-        padding-left: 40px;
+      font-family: "medium";
+      font-size: 25px;
+      text-align: left;
+      padding-left: 56px;
+      margin: 20px auto;
     }
     .invent{
         display: flex;
@@ -1583,19 +1585,19 @@ footer{
                 position: absolute;
                 bottom: 22%;
                 right: 5%;
-                padding: 5px;
+                padding: 10px;
                 background-color: white;
                 font-family: $bold;
                 font-size: 16px;
             }
             p{
             font-family: $regular;
-            font-size: 15px;
+            font-size: 20px;
             text-align: left;
             margin-top: 25px;
             span{
                 font-family: $bold;
-                font-size: 15px;
+                font-size: 20px;
             }
             }
         }
@@ -1642,7 +1644,7 @@ footer{
     flex-direction:row;
     background-color: #e1eff6;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 50px;
     text-align: left;
     
@@ -1654,22 +1656,23 @@ footer{
     .founder{
         width: 48%;
         text-align: left;
+        margin-left: 50px;
        
         h3{
             font-family: $medium;
-            font-size: 30px;
+            font-size: 29px;
         }
         p{
             font-family: $regular;
             font-size: 20px;
         }
         a{
-            text-decoration: none;
-            font-family: $regular;
-            font-size:  20px;
-            background-color: white;
-            color: black;
-            padding: 10px;
+          text-decoration: none;
+          font-family: "regular";
+          font-size: 18px;
+          background-color: white;
+          color: black;
+          padding: 12px;
         }
     }
    
@@ -1681,27 +1684,31 @@ footer{
     padding: 50px 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: left;
     .jointext{
         width: 48%;
-        margin-bottom: 20px;
+        margin:20px 50px 20px 0px;
+        text-align: left;
         h2{
             font-family: $medium;
             font-size: 25px;
+            padding-left:11px;
         }
         p{
             font-family: $regular;
             font-size: 18px;
         }
         a{
-            text-decoration: none;
-            color: white;
-            background-color: black;
-            font-family: "regular";
-            font-size: 16px;
-            padding: 10px
+          
+          text-decoration: none;
+          color: white;
+          background-color: black;
+          font-family: "regular";
+          font-size: 16px;
+          padding: 11px;
+          margin-left: 10px;
         }
     }
     .joinpic{
