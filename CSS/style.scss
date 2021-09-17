@@ -462,6 +462,7 @@ header{
       margin: 0 auto;
       padding: 0;
       overflow: hidden;
+      border: none;
       box-shadow: none;
     }
     .accordion li {
@@ -898,7 +899,7 @@ span{
       bottom: 54px;
       margin-bottom: -54px;
       object-fit: contain;
-      right: 2%;
+      right: 0%;
      }
    }
    
