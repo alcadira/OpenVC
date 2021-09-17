@@ -279,6 +279,8 @@ header ul {
   width: 100%;
   margin: 30px auto;
   background-color: white;
+  -webkit-box-shadow: 2px 4px 6px black;
+          box-shadow: 2px 4px 6px black;
   padding: 20px 10px;
   border-radius: 20px;
 }
@@ -968,6 +970,8 @@ footer span .footing {
     width: 35%;
     margin: auto 40px;
     background-color: white;
+    -webkit-box-shadow: 2px 4px 6px black;
+            box-shadow: 2px 4px 6px black;
     padding: 20px 10px;
     border-radius: 20px;
   }
@@ -1022,6 +1026,7 @@ footer span .footing {
             box-shadow: 2px 4px 6px black;
     font-family: "monbold";
     font-size: 21px;
+    text-shadow: 1px 1px black;
   }
   .showcase .invent .alumni p {
     font-family: "regular";
@@ -1639,6 +1644,8 @@ footer span .footing {
     background-color: white;
     padding: 30px 30px;
     border-radius: 20px;
+    -webkit-box-shadow: 2px 4px 6px black;
+            box-shadow: 2px 4px 6px black;
   }
   .about .abt .meet h4 {
     font-size: 22px;
@@ -1688,6 +1695,7 @@ footer span .footing {
     background-color: white;
     font-family: "monbold";
     font-size: 16px;
+    text-shadow: px 1px black;
   }
   .showcase .invent .alumni p {
     font-family: "regular";
