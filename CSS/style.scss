@@ -232,7 +232,7 @@ header{
 // =====================About====================
 
 .about{
-  padding: 30px;
+  padding: 50px 30px;
   background-color: #e1eff6;
   h2{
     font-family: $regular;
@@ -308,6 +308,7 @@ header{
                 font-size: 16px;
                 border-radius: 5px;
                 box-shadow: 2px 4px 6px black;
+                text-shadow: 1px 1px black;
             }
             p{
             font-family: $regular;

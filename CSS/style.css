@@ -250,7 +250,7 @@ header ul {
 }
 
 .about {
-  padding: 30px;
+  padding: 50px 30px;
   background-color: #e1eff6;
 }
 
@@ -344,6 +344,7 @@ header ul {
   border-radius: 5px;
   -webkit-box-shadow: 2px 4px 6px black;
           box-shadow: 2px 4px 6px black;
+  text-shadow: 1px 1px black;
 }
 
 .showcase .invent .alumni p {
