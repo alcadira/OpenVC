@@ -1436,7 +1436,7 @@ footer{
                   color: black;
                   font-family: $regular;
                   font-size: 15px;
-                  margin: 0px;
+                  margin:auto 3px;
               }
               .signup{
                   background-color:white;
@@ -1663,8 +1663,9 @@ footer{
             font-size: 29px;
         }
         p{
-            font-family: $regular;
-            font-size: 20px;
+          font-family: "regular";
+          font-size: 18px;
+          margin-bottom: 23px;
         }
         a{
           text-decoration: none;
@@ -1694,11 +1695,12 @@ footer{
         h2{
             font-family: $medium;
             font-size: 25px;
-            padding-left:11px;
+            padding-left:8px;
         }
         p{
-            font-family: $regular;
-            font-size: 18px;
+          font-family: "regular";
+          font-size: 18px;
+          margin: 22px auto;
         }
         a{
           
@@ -1708,7 +1710,7 @@ footer{
           font-family: "regular";
           font-size: 16px;
           padding: 11px;
-          margin-left: 10px;
+          margin-left: 0px;
         }
     }
     .joinpic{
@@ -1840,34 +1842,34 @@ footer{
    
 // ===============companies=============
 .companies{
-    padding:40px 0px;
+    padding:60px ;
     background-color: #e1eff6;
   
     text-align: center;
       .startups{
        background-color: white;
        width: 100%;
-       padding: 20px 60px;
+       padding: 40px 60px;
        position: relative;
        .barrow{
         position: absolute;
         display: block !important;
         left: 0%;
-        top:42%;
+        top:43%;
         width:8%;
        }
        .narrow{
         position: absolute;
         display: block !important;
         right:0%;
-        top:42%;
+        top:45%;
         width: 8%;
         z-index: 4;
        }
        h2{
            font-size: 30px;
            font-family: $regular;
-           padding-top: 30px;
+           padding-top:0px;
        }
        hr{
            background-color: black;
@@ -1878,11 +1880,13 @@ footer{
        }
        
        
-       width: 100%;
+       
        .start{
            width: 100%;
            img{
                width: 50%;
+               object-fit: contain;
+               height: 7vh;
            }
        }
       }
@@ -1900,12 +1904,11 @@ footer{
       width: 100%;
     }
     .inter{
-      
-        position: absolute;
-        display: block;
-        bottom: -7vh;
-        width: 60%;
-        left: 24%;    
+       position: absolute;
+       display: block;
+       bottom: -7vh;
+       width: 70%;
+       left: 15%;    
  }
    
   }
@@ -1928,10 +1931,12 @@ footer{
         h3{
             color: white;
             font-family: $medium;
+            font-size: 20px;
         }
         a{
             text-decoration: none;
             color: white;
+            margin: 0px;
         }
     }
     
@@ -1945,7 +1950,7 @@ footer{
      font-size: 15px;
      width: 100%;
      font-family: $regular;
-     margin: 10px;
+     margin: 20px auto;
     .footing{
      
      width: 2px;
@@ -1958,9 +1963,6 @@ footer{
  }
  }
 
-
-
-
-
+ 
 }
 
