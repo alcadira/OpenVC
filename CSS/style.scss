@@ -125,14 +125,14 @@ header{
          width: 100%;
          flex-direction: column;
          justify-content: center;
-         padding: 20px;
+         padding: 50px 30px;
          align-items: center;
         
         
         li{
             list-style: none;
-            margin: 20px;
-            text-align: left;
+            margin: 20px auto;
+            text-align: center;
             a{
                 color: black;
                 text-decoration: none;
@@ -260,18 +260,19 @@ header{
       font-size: 20px;
       font-family: $bold;
       text-align: center;
+      margin: 10px auto;
     }
     #elly{
      position: relative;
      width: 100%;
      bottom: 54px;
-     margin-bottom: -50px;
+     margin-bottom: -40px;
     }
     #found{
      position: relative;
      width: 100%;
      bottom: 54px;
-     margin-bottom: -50px;
+     margin-bottom: -40px;
      object-fit: contain;
      right: 2%;
     }
@@ -307,7 +308,11 @@ header{
                 text-align: center;
                 bottom: 32%;
                 right: 36%;
-                padding: 10px 15px;
+                height: 7vh;
+                width: 33%;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
                 background-color: white;
                 font-family: $bold;
                 font-size: 16px;
@@ -956,8 +961,8 @@ span{
                 justify-content: space-between;
                 bottom:34%;
                 right: 5%;
-                width: 45%;
-                height: 6vh;
+                width: 43%;
+                height: 7vh;
                 
                 background-color: white;
                 box-shadow: 2px 4px 6px rgba(0,0,0,0.15);
@@ -1053,7 +1058,7 @@ span{
             background-color: white;
             color: black;
             border-radius: 8px;
-            width: 40%;
+            width: 35%;
             height: 50px;
             display: flex;
             align-items: center;
@@ -1101,8 +1106,8 @@ span{
             font-family: $regular;
             font-size: 26px;
             border-radius: 8px;
-            height: 55px;
-            width: 35%;
+            height: 7vh;
+            width: 33%;
             margin-left: 19px;
             display: flex;
             align-items: center;
@@ -1252,6 +1257,7 @@ span{
       .startups{
        background-color: white;
        border-radius: 20px;
+       box-shadow: 2px 4px 6px rgba(0,0,0,0.15);
        position: relative;
        padding: 60px 90px;
        margin-bottom: 60px;
@@ -1587,22 +1593,23 @@ footer{
      background-color: white;
      padding: 30px 30px;
      border-radius: 20px;
-     box-shadow: 2px 4px 6px black;
+     box-shadow: 2px 4px 6px rgba(0,0,0,0.15);
      h4{
        font-size: 22px;
        font-family: $bold;
+       margin: 10px auto;
      }
      #elly{
       position: relative;
       width: 100%;
       bottom: 54px;
-      margin-bottom: -48px;
+      margin-bottom: -40px;
      }
      #found{
       position: relative;
       width: 100%;
       bottom: 54px;
-      margin-bottom: -54px;
+      margin-bottom: -40px;
       object-fit: contain;
       right: 2%;
      }
@@ -1629,6 +1636,7 @@ footer{
         display: flex;
         .alumni{
             position: relative;
+            left: 5%;
             
             a{
                 text-decoration: none;
@@ -1636,10 +1644,15 @@ footer{
                 position: absolute;
                 bottom: 30%;
                 right: 5%;
-                padding: 10px;
+                height: 6vh;
+                width: 43%;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
                 background-color: white;
                 font-family: $bold;
-                font-size: 16px;
+                box-shadow: 2px 4px 6px rgba(0,0,0,0.15);
+                font-size: 22px;
                 text-shadow: px 1px black;
             }
             p{
@@ -1726,7 +1739,11 @@ footer{
           font-size: 18px;
           background-color: white;
           color: black;
-          padding: 12px;
+          width: 40%;
+          height: 5vh;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
         }
     }
    
@@ -1762,8 +1779,12 @@ footer{
           background-color: black;
           font-family: "regular";
           font-size: 16px;
-          padding: 11px;
+          width: 40%;
+          height: 5vh;
           margin-left: 0px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
         }
     }
     .joinpic{
@@ -1907,13 +1928,13 @@ footer{
       .startups{
        background-color: white;
        width: 100%;
-       padding: 40px 60px;
+       padding: 60px 90px;
        position: relative;
        .barrow{
         position: absolute;
         display: block !important;
         left: 0%;
-        top:43%;
+        top:46%;
         width:8%;
        }
        .narrow{
@@ -1925,15 +1946,15 @@ footer{
         z-index: 4;
        }
        h2{
-           font-size: 30px;
+           font-size: 29px;
            font-family: $regular;
            padding-top:0px;
        }
        hr{
            background-color: black;
            opacity: 1;
-           height: 2px;
-           width:70%;
+           height: 3px;
+           width:100%;
            margin:20px auto;
        }
        
@@ -1978,7 +1999,7 @@ footer{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    padding: 50px 10px;
+    padding: 40px 10px;
 
     .foot{
         width: 25%;
@@ -2008,7 +2029,7 @@ footer{
      font-size: 15px;
      width: 100%;
      font-family: $regular;
-     margin: 20px auto;
+     margin: 20px auto 5px;
     .footing{
      
      width: 2px;

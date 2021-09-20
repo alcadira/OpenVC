@@ -135,7 +135,7 @@ header ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 20px;
+  padding: 50px 30px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -143,8 +143,8 @@ header ul {
 
 .open ul li {
   list-style: none;
-  margin: 20px;
-  text-align: left;
+  margin: 20px auto;
+  text-align: center;
 }
 
 .open ul li a {
@@ -293,20 +293,21 @@ header ul {
   font-size: 20px;
   font-family: "monbold";
   text-align: center;
+  margin: 10px auto;
 }
 
 .about .abt .meet #elly {
   position: relative;
   width: 100%;
   bottom: 54px;
-  margin-bottom: -50px;
+  margin-bottom: -40px;
 }
 
 .about .abt .meet #found {
   position: relative;
   width: 100%;
   bottom: 54px;
-  margin-bottom: -50px;
+  margin-bottom: -40px;
   -o-object-fit: contain;
      object-fit: contain;
   right: 2%;
@@ -342,7 +343,17 @@ header ul {
   text-align: center;
   bottom: 32%;
   right: 36%;
-  padding: 10px 15px;
+  height: 7vh;
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   background-color: white;
   font-family: "monbold";
   font-size: 16px;
@@ -1050,8 +1061,8 @@ footer span .footing {
             justify-content: space-between;
     bottom: 34%;
     right: 5%;
-    width: 45%;
-    height: 6vh;
+    width: 43%;
+    height: 7vh;
     background-color: white;
     -webkit-box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.15);
             box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.15);
@@ -1141,7 +1152,7 @@ footer span .footing {
     background-color: white;
     color: black;
     border-radius: 8px;
-    width: 40%;
+    width: 35%;
     height: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1198,8 +1209,8 @@ footer span .footing {
     font-family: "regular";
     font-size: 26px;
     border-radius: 8px;
-    height: 55px;
-    width: 35%;
+    height: 7vh;
+    width: 33%;
     margin-left: 19px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1357,6 +1368,8 @@ footer span .footing {
   .companies .startups {
     background-color: white;
     border-radius: 20px;
+    -webkit-box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.15);
+            box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.15);
     position: relative;
     padding: 60px 90px;
     margin-bottom: 60px;
@@ -1702,24 +1715,25 @@ footer span .footing {
     background-color: white;
     padding: 30px 30px;
     border-radius: 20px;
-    -webkit-box-shadow: 2px 4px 6px black;
-            box-shadow: 2px 4px 6px black;
+    -webkit-box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.15);
+            box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.15);
   }
   .about .abt .meet h4 {
     font-size: 22px;
     font-family: "monbold";
+    margin: 10px auto;
   }
   .about .abt .meet #elly {
     position: relative;
     width: 100%;
     bottom: 54px;
-    margin-bottom: -48px;
+    margin-bottom: -40px;
   }
   .about .abt .meet #found {
     position: relative;
     width: 100%;
     bottom: 54px;
-    margin-bottom: -54px;
+    margin-bottom: -40px;
     -o-object-fit: contain;
        object-fit: contain;
     right: 2%;
@@ -1742,6 +1756,7 @@ footer span .footing {
   }
   .showcase .invent .alumni {
     position: relative;
+    left: 5%;
   }
   .showcase .invent .alumni a {
     text-decoration: none;
@@ -1749,10 +1764,22 @@ footer span .footing {
     position: absolute;
     bottom: 30%;
     right: 5%;
-    padding: 10px;
+    height: 6vh;
+    width: 43%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     background-color: white;
     font-family: "monbold";
-    font-size: 16px;
+    -webkit-box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.15);
+            box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.15);
+    font-size: 22px;
     text-shadow: px 1px black;
   }
   .showcase .invent .alumni p {
@@ -1832,7 +1859,17 @@ footer span .footing {
     font-size: 18px;
     background-color: white;
     color: black;
-    padding: 12px;
+    width: 40%;
+    height: 5vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .joininvestor {
     padding: 50px 30px;
@@ -1872,8 +1909,18 @@ footer span .footing {
     background-color: black;
     font-family: "regular";
     font-size: 16px;
-    padding: 11px;
+    width: 40%;
+    height: 5vh;
     margin-left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .joininvestor .joinpic {
     width: 48%;
@@ -2019,14 +2066,14 @@ footer span .footing {
   .companies .startups {
     background-color: white;
     width: 100%;
-    padding: 40px 60px;
+    padding: 60px 90px;
     position: relative;
   }
   .companies .startups .barrow {
     position: absolute;
     display: block !important;
     left: 0%;
-    top: 43%;
+    top: 46%;
     width: 8%;
   }
   .companies .startups .narrow {
@@ -2038,15 +2085,15 @@ footer span .footing {
     z-index: 4;
   }
   .companies .startups h2 {
-    font-size: 30px;
+    font-size: 29px;
     font-family: "regular";
     padding-top: 0px;
   }
   .companies .startups hr {
     background-color: black;
     opacity: 1;
-    height: 2px;
-    width: 70%;
+    height: 3px;
+    width: 100%;
     margin: 20px auto;
   }
   .companies .startups .start {
@@ -2089,7 +2136,7 @@ footer span .footing {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 50px 10px;
+    padding: 40px 10px;
   }
   footer .foot {
     width: 25%;
@@ -2131,7 +2178,7 @@ footer span .footing {
     font-size: 15px;
     width: 100%;
     font-family: "regular";
-    margin: 20px auto;
+    margin: 20px auto 5px;
   }
   footer span .footing {
     width: 2px;
