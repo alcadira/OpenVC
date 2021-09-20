@@ -821,7 +821,7 @@ span{
                        text-decoration: none;
                        font-size: 26px;
                        font-family: $bold;
-                       padding: 10px;
+                       padding:8px 10px;
                        border-radius: 8px;
                        margin-left: 23px;
                      }
@@ -830,7 +830,7 @@ span{
                         text-decoration: none;
                         font-size: 26px;
                         font-family: $bold;
-                        padding: 10px 30px;
+                        padding: 8px 30px;
                         border-radius: 8px;
                         margin-left:40px;
                      }
@@ -838,7 +838,7 @@ span{
                      
                  }
                  .bannerpic{
-                     width: 48%;
+                     width: 50%;
                      position: relative;
                      
                      img{
@@ -847,22 +847,22 @@ span{
                      .txt{
                          position: absolute;
                          top: 69%;
-                         width: 48%;
+                         width: 44%;
                          left:55%;
                          background-color: white;
                          border-radius: 10px;
                          box-shadow: 0px 3px 8px gray;
-                         padding:0px 15px;
+                         padding:0px 10px;
                          h3{
                              font-family: $bold;
                              font-size: 32px;
-                             padding:10px;
+                             padding:10px 10px 0px;
                             
                          }
                          p{
                             font-size: 20px;
                             font-family: $regular;
-                            padding:5px 10px;
+                            padding:0px 10px;
                             span{
                               font-family: $bold;
                               display: inline;
@@ -900,7 +900,7 @@ span{
      width: 35%;
      margin: auto 40px;
      background-color: white;
-     box-shadow: 2px 4px 6px black;
+     box-shadow: 2px 4px 6px rgba(0,0,0,0.15);
      padding: 20px 10px;
      border-radius: 20px;
      h4{
@@ -1151,7 +1151,7 @@ span{
       .accordion-button {
         position: relative;
         display: block;
-        margin: 40px auto 0px;
+        margin: 20px auto 0px;
         width: 100%;
         border: none;
         padding: 0.5rem 1rem;
@@ -1239,19 +1239,19 @@ span{
        background-color: white;
        border-radius: 20px;
        position: relative;
-       padding: 60px 50px;
+       padding: 60px 90px;
        margin-bottom: 60px;
        .barrow{
         position: absolute;
         display: block !important;
-        left: 3.5%;
+        left: 2%;
         bottom: 35%;
         width: 5%;
        }
        .narrow{
         position: absolute;
         display: block !important;
-        right:4%;
+        right:2%;
         bottom:35%;
         width: 5%;
         z-index: 4;
@@ -1340,7 +1340,7 @@ footer{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 70px 10px;
+    padding: 70px 10px 30px;
 
     .foot{
         width: 25%;
@@ -1371,7 +1371,7 @@ footer{
      font-size: 22px;
      width: 100%;
      font-family: $light;
-     margin:40px auto;
+     margin:40px auto 0px;
     .footing{
      
      width: 2px;
