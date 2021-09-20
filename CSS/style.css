@@ -1039,15 +1039,25 @@ footer span .footing {
     text-decoration: none;
     color: black;
     position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     bottom: 34%;
     right: 5%;
-    padding: 10px 20px;
+    width: 45%;
+    height: 6vh;
     background-color: white;
-    -webkit-box-shadow: 2px 4px 6px black;
-            box-shadow: 2px 4px 6px black;
+    -webkit-box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.15);
+            box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.15);
     font-family: "monbold";
     font-size: 21px;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.15);
   }
   .showcase .invent .alumni p {
     font-family: "regular";
@@ -1131,7 +1141,17 @@ footer span .footing {
     background-color: white;
     color: black;
     border-radius: 8px;
-    padding: 10px 25px;
+    width: 40%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-left: 20px;
   }
   .joininvestor {
@@ -1178,8 +1198,18 @@ footer span .footing {
     font-family: "regular";
     font-size: 26px;
     border-radius: 8px;
-    padding: 10px 26px;
+    height: 55px;
+    width: 35%;
     margin-left: 19px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .joininvestor .joinpic {
     width: 48%;
