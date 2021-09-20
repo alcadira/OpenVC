@@ -1500,6 +1500,7 @@ footer{
                      h1{
                          font-size: 35px;
                          font-family: $bold;
+                         text-align: left;
                      }
                      a{
                          margin-top: 20px;
@@ -1607,7 +1608,7 @@ footer{
       font-size: 25px;
       text-align: left;
       padding-left: 56px;
-      margin: 20px auto;
+      margin:40px auto;
     }
 
     .invent{
@@ -1619,7 +1620,7 @@ footer{
                 text-decoration: none;
                 color: black;
                 position: absolute;
-                bottom: 22%;
+                bottom: 30%;
                 right: 5%;
                 padding: 10px;
                 background-color: white;
@@ -1868,6 +1869,11 @@ footer{
       border-bottom: 1px solid #e1eff6;
       border-left: 1px solid #e1eff6;
       overflow: hidden;
+      p{
+        font-family: $light;
+        font-size: 15px;
+        color: black;
+      }
     }
         .accordion-panel img {
           display: block;

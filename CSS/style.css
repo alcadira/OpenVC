@@ -1597,6 +1597,7 @@ footer span .footing {
   .banner .banner-items .btext h1 {
     font-size: 35px;
     font-family: "monbold";
+    text-align: left;
   }
   .banner .banner-items .btext a {
     margin-top: 20px;
@@ -1702,7 +1703,7 @@ footer span .footing {
     font-size: 25px;
     text-align: left;
     padding-left: 56px;
-    margin: 20px auto;
+    margin: 40px auto;
   }
   .showcase .invent {
     display: -webkit-box;
@@ -1716,7 +1717,7 @@ footer span .footing {
     text-decoration: none;
     color: black;
     position: absolute;
-    bottom: 22%;
+    bottom: 30%;
     right: 5%;
     padding: 10px;
     background-color: white;
@@ -1969,6 +1970,11 @@ footer span .footing {
     border-bottom: 1px solid #e1eff6;
     border-left: 1px solid #e1eff6;
     overflow: hidden;
+  }
+  .according .accordion-panel p {
+    font-family: "light";
+    font-size: 15px;
+    color: black;
   }
   .according .accordion-panel img {
     display: block;
