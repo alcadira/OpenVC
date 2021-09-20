@@ -48,8 +48,8 @@ header .menu .bar {
   width: 40%;
   height: 5px;
   background-color: black;
-  -webkit-transition: all .8s ease-in-out;
-  transition: all .8s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 header .menu .bar::before {
@@ -59,8 +59,8 @@ header .menu .bar::before {
   background-color: black;
   position: absolute;
   top: 30%;
-  -webkit-transition: all .8s ease-in-out;
-  transition: all .8s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 header .menu .bar::after {
@@ -70,8 +70,8 @@ header .menu .bar::after {
   background-color: black;
   position: absolute;
   bottom: 30%;
-  -webkit-transition: all .8s ease-in-out;
-  transition: all .8s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 header ul {
@@ -85,6 +85,8 @@ header ul {
   list-style: none;
   background-color: #e1eff6;
   text-align: center;
+  top: 0;
+  left: 0;
 }
 
 .open {
@@ -177,8 +179,8 @@ header ul {
 }
 
 .banner .banner-items .btext {
-  width: 90%;
-  padding: 20px 10px;
+  width: 100%;
+  padding: 20px 0px;
   text-align: center;
 }
 
@@ -186,7 +188,7 @@ header ul {
   font-size: 18px;
   font-family: "monbold";
   padding: 20px 22px;
-  text-align: left;
+  text-align: center;
 }
 
 .banner .banner-items .btext .sign {
@@ -214,7 +216,7 @@ header ul {
 }
 
 .banner .banner-items .bannerpic {
-  width: 90%;
+  width: 100%;
   position: relative;
 }
 
@@ -231,7 +233,7 @@ header ul {
   -webkit-box-shadow: 2px 4px 6px black;
           box-shadow: 2px 4px 6px black;
   border-radius: 10px;
-  padding: 0px;
+  padding: 10px;
 }
 
 .banner .banner-items .bannerpic .txt h3 {
@@ -273,15 +275,16 @@ header ul {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
+  padding-top: 20px;
 }
 
 .about .abt .meet {
   width: 100%;
-  margin: 30px auto;
+  margin: 40px auto;
   background-color: white;
   -webkit-box-shadow: 2px 4px 6px black;
           box-shadow: 2px 4px 6px black;
-  padding: 20px 10px;
+  padding: 30px 10px;
   border-radius: 20px;
 }
 
