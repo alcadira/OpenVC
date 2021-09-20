@@ -233,7 +233,7 @@ header ul {
   -webkit-box-shadow: 2px 4px 6px black;
           box-shadow: 2px 4px 6px black;
   border-radius: 10px;
-  padding: 10px;
+  padding: 0px 20px;
 }
 
 .banner .banner-items .bannerpic .txt h3 {
@@ -244,6 +244,7 @@ header ul {
 .banner .banner-items .bannerpic .txt p {
   font-size: 15px;
   font-family: "regular";
+  padding: 0px;
 }
 
 .banner .banner-items .bannerpic .txt p span {
