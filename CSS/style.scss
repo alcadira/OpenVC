@@ -713,7 +713,8 @@ span{
         height: 12vh;
         background-color: #e1eff6;
         margin: 0;
-        padding: 0px 30px;
+        padding: 0px 40px;
+        align-items: center;
 
         width: 100%;
         .logo{
@@ -770,24 +771,22 @@ span{
       
         ul{
           display:flex;
-          flex-direction:row;
-          position: fixed;
-          width:55%;
+          flex-direction:row;  
           list-style: none;
           margin: unset;
           position: unset;
-          align-items: center;
+          width: auto;
           background-color: transparent;
          
           li{
               list-style: none;
-              margin: 0px 10px;
+             margin-right: 50px;
               a{
                   text-decoration: none;
                   color: black;
                   font-family: $semi;
                   font-size: 20px;
-                  margin: 0px 15px;
+                  // margin: 0px 15px;
               }
               .signup{
                   background-color:white;
@@ -811,7 +810,7 @@ span{
      .banner-items{
          display: flex !important;
          flex-direction: row;
-         padding-top: 120px;
+         padding-top: 92px;
              .btext{
                      width: 48%;
                      padding: 30px;
@@ -958,7 +957,7 @@ span{
                 position: absolute;
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
+                justify-content: space-evenly;
                 bottom:34%;
                 right: 5%;
                 width: 43%;
@@ -1081,7 +1080,7 @@ span{
     text-align: left;
     .jointext{
         width: 48%;
-        padding-top:20vh;
+        padding-top:18vh;
         margin:50px auto;
         
         h2{
@@ -1118,7 +1117,7 @@ span{
         width: 48%;
         margin-bottom: 20px;
         img{
-            width: 100%;
+            width: 80%;
         }
     }
 }
