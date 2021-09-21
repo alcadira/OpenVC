@@ -801,10 +801,10 @@ footer span .footing {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    height: 12vh;
+    height: 14vh;
     background-color: #e1eff6;
     margin: 0;
-    padding: 0px 40px;
+    padding: 0px 30px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -905,7 +905,7 @@ footer span .footing {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding-top: 92px;
+    padding-top: 95px;
   }
   .banner .banner-items .btext {
     width: 48%;
@@ -1530,7 +1530,7 @@ footer span .footing {
     width: 100%;
   }
   header .logo {
-    width: 10%;
+    width: 20%;
     -o-object-fit: contain;
        object-fit: contain;
   }
@@ -1589,7 +1589,7 @@ footer span .footing {
         -ms-flex-direction: row;
             flex-direction: row;
     position: fixed;
-    width: 60%;
+    width: auto;
     list-style: none;
     margin: unset;
     position: unset;
@@ -1606,37 +1606,37 @@ footer span .footing {
     text-decoration: none;
     color: black;
     font-family: "regular";
-    font-size: 15px;
+    font-size: 20px;
     margin: auto 3px;
   }
   header ul li .signup {
     background-color: white;
     border: 10px;
-    font-size: 15px;
+    font-size: 20px;
     padding: 5px;
   }
   .banner {
     background-color: #e1eff6;
-    height: 40vh;
+    height: 100vh;
     width: 100%;
   }
   .banner .banner-items {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-top: 100px;
   }
   .banner .banner-items .btext {
-    width: 48%;
-    padding: 0px;
-    text-align: left;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
   }
   .banner .banner-items .btext h1 {
-    font-size: 35px;
+    font-size: 45px;
     font-family: "monbold";
     text-align: left;
   }
@@ -1650,8 +1650,9 @@ footer span .footing {
     padding: 5px;
   }
   .banner .banner-items .bannerpic {
-    width: 48%;
+    width: 100%;
     position: relative;
+    padding-top: 30px;
   }
   .banner .banner-items .bannerpic img {
     width: 100%;
@@ -1660,9 +1661,9 @@ footer span .footing {
   }
   .banner .banner-items .bannerpic .txt {
     position: absolute;
-    top: 69%;
-    width: 56%;
-    left: 37%;
+    top: 79%;
+    width: 47%;
+    left: 34%;
     background-color: white;
     border-radius: 10px;
     padding: 0px 10px;
@@ -1671,14 +1672,17 @@ footer span .footing {
   }
   .banner .banner-items .bannerpic .txt h3 {
     font-family: "monbold";
+    font-size: 30px;
+    padding: 0px 15px;
   }
   .banner .banner-items .bannerpic .txt p {
     font-family: "regular";
-    font-size: 15px;
+    font-size: 25px;
     width: 100%;
   }
   .banner .banner-items .bannerpic .txt p span {
     font-family: "monbold";
+    font-size: 25px;
   }
   .about {
     padding: 40px;
@@ -1978,7 +1982,7 @@ footer span .footing {
   .according .accordion-button {
     position: relative;
     display: block;
-    margin: 0;
+    margin: 10px auto;
     width: 100%;
     border: none;
     padding: 0.5em;
@@ -1986,7 +1990,7 @@ footer span .footing {
     cursor: pointer;
   }
   .according .accordion-button h3 {
-    font-size: 12px;
+    font-size: 18px;
     font-family: "monbold";
     color: black;
   }

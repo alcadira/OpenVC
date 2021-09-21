@@ -710,10 +710,10 @@ span{
         position: absolute;
         display: flex;
         justify-content: space-between;
-        height: 12vh;
+        height: 14vh;
         background-color: #e1eff6;
         margin: 0;
-        padding: 0px 40px;
+        padding: 0px 30px;
         align-items: center;
 
         width: 100%;
@@ -810,7 +810,7 @@ span{
      .banner-items{
          display: flex !important;
          flex-direction: row;
-         padding-top: 92px;
+         padding-top: 95px;
              .btext{
                      width: 48%;
                      padding: 30px;
@@ -1419,7 +1419,7 @@ footer{
 
         width: 100%;
         .logo{
-            width: 10%;
+            width: 20%;
             object-fit:contain;
             
             img{
@@ -1474,7 +1474,7 @@ footer{
           display:flex;
           flex-direction:row;
           position: fixed;
-          width:60%;
+          width:auto;
           list-style: none;
           margin: unset;
           position: unset;
@@ -1488,13 +1488,13 @@ footer{
                   text-decoration: none;
                   color: black;
                   font-family: $regular;
-                  font-size: 15px;
+                  font-size: 20px;
                   margin:auto 3px;
               }
               .signup{
                   background-color:white;
                    border: 10px;
-                  font-size: 15px;
+                  font-size: 20px;
                   padding: 5px;
               }
           }
@@ -1506,18 +1506,18 @@ footer{
 
     .banner{
         background-color: #e1eff6;
-        height: 40vh;
+        height: 100vh;
          width: 100%;
      .banner-items{
          display: flex !important;
-         flex-direction: row;
+         flex-direction: column;
          padding-top: 100px;
              .btext{
-                     width: 48%;
-                     padding: 0px;
-                     text-align: left;
+                     width: 100%;
+                     padding: 20px;
+                     text-align: center;
                      h1{
-                         font-size: 35px;
+                         font-size:45px;
                          font-family: $bold;
                          text-align: left;
                      }
@@ -1533,30 +1533,34 @@ footer{
                      
                  }
                  .bannerpic{
-                     width: 48%;
+                     width: 100%;
                      position: relative;
+                     padding-top: 30px;
                      img{
                          width: 100%;
                          object-fit: contain;
                      }
                      .txt{
                         position: absolute;
-                        top: 69%;
-                        width: 56%;
-                        left: 37%;
+                        top: 79%;
+                        width: 47%;
+                        left: 34%;
                         background-color: white;
                         border-radius: 10px;
                         padding: 0px 10px;
                          box-shadow: 0px 3px 8px black solid;
                          h3{
-                             font-family: $bold;
+                          font-family: "monbold";
+                          font-size: 30px;
+                          padding: 0px 15px;
                          }
                          p{
                              font-family: $regular;
-                             font-size: 15px;
+                             font-size: 25px;
                              width: 100%;
                              span{
                                  font-family: $bold;
+                                 font-size: 25px;
                              }
                          }
                      }
@@ -1839,14 +1843,14 @@ footer{
     .accordion-button {
       position: relative;
       display: block;
-      margin: 0;
+      margin:10px auto;
       width: 100%;
       border: none;
       padding: 0.5em;
       background: #e1eff6;
       cursor: pointer;
       h3{
-          font-size: 12px;
+          font-size: 18px;
           font-family: $bold;
           color: black;
       }
